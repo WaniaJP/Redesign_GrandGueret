@@ -1,0 +1,148 @@
+footer{
+  margin-top: 100px;
+}
+
+footer p, footer a{
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #2F2929;
+}
+
+#bloc-info-1 img{
+  margin-bottom: 25px;
+}
+
+#bloc-reseau img{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#bloc-info-2 a{
+  margin: 0 30px;
+}
+
+#bloc-info-1>div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 850px){
+  footer{
+    padding: 5% 0;
+  }
+
+  #bloc-info-2 a{
+  margin: 2% 30px;
+  }
+
+  #bloc-info-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  #bloc-info-1>div{
+  margin: 100px 0;
+  }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1024px) {
+  footer{
+    padding: 5% 0;
+  }
+  
+  #bloc-info-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #bloc-info-1>div{
+    width: 33%;
+    margin: 25px 40px;
+  }
+
+  #bloc-info-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  footer{
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+  #bloc-info-1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  }
+
+  #bloc-info-1>div{
+  width: 33%;
+  margin: 50px 0;
+  }
+
+  #bloc-info-2{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+
+  footer{
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #bloc-info-1{
+    display: flex;
+    width: 1320px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #bloc-info-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  #bloc-info-1>div{
+    width: 33%;
+    margin: 50px 0;
+  }
+}
+
+.text-mail{
+  text-decoration: none;
+}
+
+footer img, #bloc-info-2 a, .text-mail{
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+footer img:hover, #bloc-info-2 a:hover, .text-mail:hover{
+  opacity: .6;
+}

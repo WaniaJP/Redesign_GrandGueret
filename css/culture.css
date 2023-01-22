@@ -1,0 +1,205 @@
+@media screen and (min-width:1200px){
+    body,#btn{font-size:23px;}
+	.flogo{
+		width: 25%;
+		float: left;
+	}
+	.f3rs{
+		float: right;
+		width: 25%;
+		margin-right: 0;
+	}
+	.ftel{
+		margin:auto;
+		width: 50%;
+	}
+	.flogoimg{
+		width: 65%;
+	}
+	.ftelimg{
+		width: 30%;
+	}
+	.fcarre{
+		width: 100%;
+		margin: auto;
+	}
+	.pub1 td div{
+		font-size:24px;
+	}
+}
+@media screen and (min-width:640px) and (max-width: 1199px){
+	body,#btn{font-size:15px;}
+	.flogo{
+		width: 25%;
+		float: left;
+	}
+	.f3rs{
+		float: right;
+		width: 25%;
+		margin-right: 0;
+	}
+	.ftel{
+		margin:auto;
+		width: 50%;
+	}
+	.flogoimg{
+		width: 65%;
+	}
+	.ftelimg{
+		width: 30%;
+	}
+	.fcarre{
+		width: 100%;
+		margin: auto;
+	}
+	.pub1 td div{
+		font-size:14px;
+	}
+}
+@media screen and (max-width: 639px), screen and (max-device-width:639px){
+	body{font-size:13px;}
+	.flogo,.ftel,.f3rs{
+		float: none;
+		width: 50%;
+		margin: auto;
+	}
+	.fcarre,.flogoimg{
+		width: 50%;
+	}
+	.plusbas{
+		width: 28%;
+		margin: auto;
+	}
+	.ftelimg{
+		width: 40%;
+	}
+	.fcarre{
+		width: 55%;
+		margin: auto;
+	}
+	.pub1 td div{
+		font-size:10px;
+	}
+	#rightbas{
+		font-size:9px;
+	}
+}
+@media screen and (max-device-width:639px){
+	.pub1 td div,.pub2{
+		font-size:15.5px;
+	}
+	#rightbas{
+		font-size:14px;
+	}
+}
+
+
+body{
+    text-align: center;
+		margin: 0;
+    font-style: normal;
+}
+
+.actu img{
+	transition: opacity 0.3s;
+}
+
+.actu a {
+	text-decoration: none;
+}
+
+.actu img:hover{
+	opacity: .8
+}
+
+.present p{
+	padding: 0 10%;
+}
+
+h1,h2,h3,h4,h5,b,p{
+    margin:5%;	
+}
+
+.actu img, .imag, .pub img{
+    width: 100%;
+    height: auto;
+}
+.pub{
+    background-color: #2F2929;
+    padding: 0 0 6% 0;
+}
+.pub1{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding: 6%;
+    color:#F2DCC9;
+}
+.pub1 td{
+    width: 30%;
+}
+.pub a{
+    text-decoration: none;
+    color:#2F2929;
+}
+.pub :hover a {
+    color:#FFF;
+}
+
+.pub2{
+    width: 33%;
+    color:#2F2929;
+    background-color: #F2DCC9;
+    margin: auto;
+    display: inline-block;
+}
+.vide{
+    width: 5%;
+    margin: auto;
+    display: inline-block;
+}
+
+
+.box{
+    width: 30%;
+    background-image: url(../images/png/cadre.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0 4%;
+    margin: auto;
+    display: inline-block;
+}
+#lefttop{
+    float:left;
+    margin: 3% 0;
+}
+#rightbas{
+    margin: 0 0 0 6%;
+}
+.videa{
+    width: 10%;
+    margin: auto;
+    display: inline-block;
+}
+
+
+
+
+#btn {
+	background-color: #2F2929;
+	color: #F2DCC9;
+	display: inline-block;
+	text-align: center;
+	border: none;
+	transition: all 0.5s;
+	cursor: pointer;
+   }
+   #btn:hover
+   {
+	color: #2F2929;
+	background-color: #F2DCC9;
+   }
+
+
+
+

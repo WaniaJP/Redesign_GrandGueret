@@ -1,0 +1,453 @@
+body{
+  margin: 0;
+}
+
+body div{
+  margin: 0;
+}
+
+.bloc{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.bloc-dark{
+
+  background: #2F2929;
+}
+
+
+
+.button{
+  border: none;
+  background: #F2DCC9;
+  color: #2F2828;
+  padding: 23px;
+  margin: 0;
+
+  transition: padding 0.3s;
+}
+
+.button:hover{
+  padding: 30px;
+}
+
+.button:active{
+  padding: 50px;
+}
+
+#illu{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+.menu-cat a{
+  text-decoration: none;
+}
+
+.navMenu-div-icon{
+  background: #F2DCC9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 235px;
+  height: 235px;
+  border-radius: 300px;
+}
+
+#navMenu figcaption{
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+.img-activite{
+	transition: opacity 0.3s;
+}
+
+.img-activite:hover{
+	opacity: .8
+}
+
+
+
+
+/********************************************************************************************************************/
+/****************************************** RESPONSIVE **************************************************************/
+/********************************************************************************************************************/
+
+@media screen and (max-width: 600px) {
+
+  .navMenu-div-icon{
+    width: 150px;
+    height: 150px;
+  }
+
+  .navMenu-icon{
+    width: 50%;
+  }
+
+  #illu{
+      height: 400px;
+  }
+
+.bloc{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button{
+  margin-top: 30px;
+}
+
+/********************* MENU *********************/
+#navMenu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+/********************* FIN -- MENU *********************/
+
+
+
+/********************* ROUTE *********************/
+.map{
+    margin-top: 30px;
+    width:650px;
+    height: 650px;
+}
+/********************* FIN -- ROUTE *********************/
+
+/********************* ACTIVITÉS *********************/
+.nature-activite{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#bloc-activites h1{
+    margin-bottom: 50px;
+}
+
+#bloc-activites img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.lecture-activite img{
+    margin-top: 80px;
+}
+/********************* FIN -- ACTIVITÉS *********************/
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    #illu{
+      height: 500px;
+    }
+  
+  .bloc{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  
+  .button{
+    margin-top: 60px;
+  }
+
+
+  /********************* MENU *********************/
+  #navMenu{
+    display: flex;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+
+  
+  .menu-cat {
+    margin-bottom: 50px;
+  }
+
+  /********************* FIN -- MENU *********************/
+  
+  
+  
+  /********************* ROUTE *********************/
+  
+  .map{
+    margin-top: 50px;
+    width:100%;
+    height: 600px;
+  }
+  /********************* FIN -- ROUTE *********************/
+  
+  /********************* ACTIVITÉS *********************/
+  .nature-activite{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  #bloc-activites h1{
+    margin-bottom: 50px;
+  }
+  
+  #bloc-activites div img{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .lecture-activite img{
+    margin-top: 100px;
+  }
+  /********************* FIN -- ACTIVITÉS *********************/
+  
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  #illu{
+    height: 600px;
+  }
+  
+  .bloc{
+    margin-bottom: 70px;
+  
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    padding-left: 50px ;
+    padding-right: 50px ;
+  }
+  
+  .button{
+    margin-top: 25px;
+  }
+
+  /********************* MENU *********************/
+
+  #navMenu{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+  
+    justify-content: space-evenly;
+  }
+  
+  .navMenu-icon{
+    margin-bottom: 4%;
+  }
+  
+  .menu-cat{
+    margin:0;
+  }
+  
+  .navMenu-div-icon{
+    width: 235px;
+    height: 235px;
+    border-radius: 300px;
+  }
+  /********************* FIN -- MENU *********************/
+
+  /********************* ACTIVITÉS *********************/
+
+  .nature-activite{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  #bloc-activites h1{
+    margin-bottom: 50px;
+  }
+  
+  #bloc-activites div img{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .lecture-activite img{
+    margin-top: 100px;
+  }
+
+    /********************* FIN -- ACTIVITÉS *********************/
+
+  
+}
+
+@media screen and (min-width: 1281px) {
+  #illu{
+    height: 700px;
+  }
+  
+  .bloc{
+    margin-bottom: 50px;
+  
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  
+  #image-illustration{
+    margin-bottom: 100px;
+  }
+  
+  
+  
+  /********************* INTRODUCTION *********************/
+  
+  #bloc-intro {
+    margin-bottom: 50px;
+    
+  }
+
+  /********************* MENU *********************/
+
+  .navMenu-div-icon{
+    width: 235px;
+    height: 235px;
+    border-radius: 300px;
+  }
+
+
+  
+  #navMenu {
+    display: flex;
+    justify-content: space-evenly;
+  
+    width: 80%;
+  }
+  
+  
+  .menu-cat {
+    display: inline-block;
+    margin-bottom: 50px;
+  
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+
+  .introduction{
+    display: flex;
+    justify-content: space-evenly;
+  
+    /* or 167% */
+  
+  }
+  
+  
+  .introduction p{
+    width: 65%;
+  }
+  
+  /********************* FIN -- INTRODUCTION *********************/
+  
+  
+  
+  
+  
+  /********************* HÉBERGEMENT *********************/
+  
+  .ss-bloc-hebergement{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin-bottom: 100px;
+  }
+  
+  .ss-bloc-hebergement p{
+    width: 65%;
+  }
+  
+  /********************* FIN -- HÉBERGEMENT *********************/
+  
+  
+  /********************* ROUTE *********************/
+  
+  .text-route{
+    display: flex;
+    justify-content: space-evenly;
+    /* or 167% */
+  
+    text-align: center;
+  
+    color: #2F2929;
+  
+  
+    margin-bottom: 100px;
+  }
+  
+  .text-route p {
+    width: 65%;
+  }
+  
+  .map{
+    width:1400px;
+    height:820px;
+  }
+  /********************* FIN -- ROUTE *********************/
+  
+  
+  /********************* DÉPLACEMENT *********************/
+  
+  
+  .text-deplacement{
+    display: flex;
+    justify-content: space-evenly;
+  
+    margin-bottom: 100px;
+  }
+  
+  .text-deplacement p {
+    width: 65%;
+  }
+  
+  /********************* FIN -- DÉPLACEMENT *********************/
+  
+  /********************* ACTIVITÉS *********************/
+  
+  #bloc-activites div{
+  
+    display: flex;
+    align-items: center;
+  
+    width: 80%;
+  
+    margin-bottom: 120px;
+  }
+  
+  .nature-activite a, .lecture-activite a {
+    width:100%;
+  }
+  
+  .nature-activite img{
+    margin-left: 5%;
+    width:100%;
+  }
+  
+  .lecture-activite img{
+    margin-right: 5%;
+    width:100%;
+  }
+  
+  
+  /********************* FIN -- ACTIVITÉS *********************/
+
+}

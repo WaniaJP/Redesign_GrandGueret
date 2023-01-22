@@ -1,0 +1,20 @@
+.menu-cat path{
+  transition: stroke 0.4s;
+  transition: fill 0.4s;
+}
+
+.navMenu-div-icon{
+  transition: background 0.4s;
+}
+
+.menu-cat:hover path{
+  stroke: #F2DCC9; 
+}
+
+.menu-cat:hover .menu-path-fill{
+  fill: #F2DCC9; 
+}
+
+.menu-cat:hover .navMenu-div-icon{
+  background: #2F2929;
+}

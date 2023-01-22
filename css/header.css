@@ -1,0 +1,128 @@
+header{
+  display: flex;
+  background: #2F2929;
+  padding: 0.5%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+header a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bar-btn{
+	cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 1179px) {
+.desktop{
+  display: none;
+}
+
+#navbar-menu-phone{
+  display: none;
+}
+
+header{
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mobile-menu .container{
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu{
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#logo-nav{
+  margin-left: 10%;
+}
+
+#logo-nav img{
+	width: 100%;
+}
+.main-nav .container .menu{
+  display: none;
+}
+
+.bar-btn{
+  display: block;
+}
+
+.mobile-menu{
+  display: inline-block;
+  padding: 2%;
+  margin-right: 0;
+  width: 100%;
+  background: #f2dcc9;
+}
+
+.mobile-menu a{
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #2f2929;
+
+  background: #f2dcc9;
+
+  padding: 1%;
+  margin-bottom: 0;
+}
+
+.mobile-menu a{
+  transition: all 0.3s;
+}
+
+.mobile-menu a:hover{
+  background: #2F2929;
+  color:#F2DCC9;
+}
+
+
+}
+
+@media screen and (min-width: 1180px) {
+
+.phone{
+  display: none;
+}
+
+header a{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #F2DCC9;
+
+  padding: 2%;
+}
+
+header nav{
+  display: flex;
+  width: 60%;
+
+  justify-content: space-evenly;
+
+  margin: 0 1%;
+}
+
+header nav a {
+transition: all 0.3s ease-in-out;
+}
+
+header nav a:hover{
+  background: #F2DCC9;
+  color:#2F2929;
+}
+}

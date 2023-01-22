@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+		<meta charset="UTF-8">
+		<title>Tourisme - Grand Guéret</title>
+
+		<link rel="stylesheet" href="css/font.css">
+		<link rel="stylesheet" href="css/tourisme.css">
+		<link rel="stylesheet" href="css/animation.css">
+		<link rel="stylesheet" href="css/footer_dark.css">
+		<link rel="stylesheet" href="css/header.css">
+		
+		<script src="plugins/jquery-3.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script/header.js"> </script>
+	</head>
+
+	<body>
+		<header>
+			<a id="logo-nav" href="index.html">
+				<img src="images/svg/logo-complet.svg" alt="logo de l'Agglomération du Grand Guéret">
+			</a>
+
+			<nav class="desktop">
+				<a href="#">
+					Agglomération
+				</a>
+
+				<a href="#">
+					Politique
+				</a>
+
+				<a href="#">
+					Transports
+				</a>
+
+				<a href="tourisme.html">
+					Tourisme
+				</a>
+
+				<a href="culture.html">
+					Culture
+				</a>
+			</nav>
+
+			<div class="desktop">
+				<img src="images/svg/search-icon.svg" alt="recherche">
+			</div>
+
+			<div class="phone navbar-phone">
+				<img class="bar-btn" src="images/svg/menu-icon.svg" alt="déroulement du menu">
+			</div>
+
+			
+			</div>
+		</header>
+		<div  class="phone">
+			<div class="mobile-menu phone" style="display: none;">
+				<div class="container phone">
+						<a href="#">
+								Agglomération
+						</a>
+						<a href="#">
+								Politique
+						</a>
+						<a href="#">
+								Transports
+						</a>
+						<a href="tourisme.html">
+								Tourisme
+						</a>
+						<a href="culture.html">
+								Culture
+						</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="image-illustration">
+			<img id="illu" src="images/png/illustration.png" alt="Photo de paysage">
+		</div>
+	
+		
+		
+
+		<div id="bloc-intro" class="bloc">
+
+			<div id="navMenu">
+				<figure class="menu-cat">
+					<a class="navMenu-link" href="#bloc-hebergement">
+						<div class="navMenu-div-icon">
+							<svg class="navMenu-icon" width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M16.25 48.75L65 10.8333L113.75 48.75V108.333C113.75 111.206 112.609 113.962 110.577 115.994C108.545 118.025 105.79 119.167 102.917 119.167H27.0833C24.2102 119.167 21.4547 118.025 19.423 115.994C17.3914 113.962 16.25 111.206 16.25 108.333V48.75Z" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M48.75 119.167V65H81.25V119.167" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>						
+						</div>
+						<figcaption class="ss-title dark-text"> Hébergement </figcaption>
+					</a>
+				</figure>
+				
+				<figure class="menu-cat">
+					<a class="navMenu-link" href="#">
+						<div class="navMenu-div-icon">
+							<svg class="navMenu-icon" width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M65 5.41669V124.583" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M92.0833 27.0833H51.4583C46.4303 27.0833 41.6081 29.0807 38.0528 32.6361C34.4974 36.1915 32.5 41.0136 32.5 46.0416C32.5 51.0697 34.4974 55.8918 38.0528 59.4472C41.6081 63.0026 46.4303 65 51.4583 65H78.5417C83.5697 65 88.3919 66.9974 91.9472 70.5528C95.5026 74.1081 97.5 78.9303 97.5 83.9583C97.5 88.9864 95.5026 93.8085 91.9472 97.3639C88.3919 100.919 83.5697 102.917 78.5417 102.917H32.5" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>						
+						</div>
+						<figcaption class="ss-title dark-text"> Taxe </figcaption>
+					</a>
+				</figure>
+				
+				<figure class="menu-cat">
+					<a class="navMenu-link" href="#bloc-route">
+						<div class="navMenu-div-icon">
+							<svg class="navMenu-icon" width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M27.0835 48.75L10.8335 65L27.0835 81.25" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M48.75 27.0833L65 10.8333L81.25 27.0833" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M81.25 102.917L65 119.167L48.75 102.917" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M102.917 48.75L119.167 65L102.917 81.25" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M10.8335 65H119.167" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M65 10.8333V119.167" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>						
+						</div>
+						<figcaption class="ss-title dark-text"> Déplacement </figcaption>
+					</a>
+				</figure>
+				
+				<figure class="menu-cat">
+					<a class="navMenu-link" href="#bloc-activites">
+						<div class="navMenu-div-icon">
+							<svg class="navMenu-icon" width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M64.9998 92.0834C79.9576 92.0834 92.0832 79.9577 92.0832 65C92.0832 50.0423 79.9576 37.9167 64.9998 37.9167C50.0421 37.9167 37.9165 50.0423 37.9165 65C37.9165 79.9577 50.0421 92.0834 64.9998 92.0834Z" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M65 5.41669V16.25" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M65 113.75V124.583" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M22.8584 22.8583L30.5501 30.55" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M99.4502 99.45L107.142 107.142" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M5.4165 65H16.2498" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M113.75 65H124.583" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M22.8584 107.142L30.5501 99.45" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M99.4502 30.55L107.142 22.8583" stroke="#2F2929" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</div>
+						<figcaption class="ss-title dark-text"> Activités </figcaption>
+					</a>
+				</figure>
+
+			</div>
+
+			<div class="introduction">
+				<p class="text dark-text">
+					Est-ce dû à ses châteaux, gardiens de la mémoire du temps et de légendes jamais vraiment oubliées ?  A sa nature omniprésente qui, entre eaux et forêts, impose son rythme ? Ou peut-être à ses habitants, descendants des premiers troubadours, qui vous accueillent avec le verbe occitant ? Nul n’a réellement percé le mystère. Mais un fait reste certain : venir chez nous, c’est toujours partir à l’aventure…
+				</p>
+			</div>
+		</div>
+
+
+
+		<div id="bloc-hebergement" class="bloc-dark bloc">
+			<h1 class="title light-text">
+				Dormir en toute sérenité !
+			</h1>
+
+			<div class="ss-bloc-hebergement">
+				<p class="text light-text">
+					La Communauté d’Agglomération du Grand Guéret œuvre pour la promotion du territoire depuis une vingtaine d’année. En devenant propriétaire d’hébergements touristiques, en créant le Parc Animalier des Monts de Guéret « Les Loups de Chabrières », et en développant la Station Sports Nature des Monts de Guéret, elle a renforcé l’offre locale et a doté le territoire de produits d’appel touristiques forts.
+					Aujourd’hui, dans sa volonté d’insuffler un nouveau développement à son projet de territoire, elle propose la reprise de ses différents sites d’hébergement par des acteurs privés ou publics prêts à s’engager dans la promotion et le développement du territoire.
+				</p>
+
+				<p class="text light-text">
+					Cette reprise du hameau de gîtes de Saint-Victor-en-Marche, du camping de La Chapelle-Taillefert, du camping d’Anzême et du hameau de gîtes de Jouillat est possible par le biais d’une vente ou d’un bail emphytéotique administratif.
+				</p>
+
+				<p class="text light-text">
+					Les personnes intéressées devront présenter un projet de reprise avec un engagement fort en termes de rénovation et de développement des équipements existants. Toute proposition sera étudiée.
+				</p>
+			</div>
+
+			<a href="#">
+				<button class="button text dark-text">
+					Soumettre un projet de reprise
+				</button>
+			</a>
+			
+		</div>
+
+
+
+		<div id="bloc-route" class="bloc">
+			<h1 class="title dark-text">
+				Toutes les routes mènent chez nous !
+			</h1>
+
+			<div class="text-route">
+				<p class="text dark-text">
+					Que vous habitiez Paris, Lyon ou Amsterdam, qui vous souhaitiez vous mettre au vert durant 15 jours ou un week-end, venir en famille dans les Monts de Guéret est vraiment très facile. De par sa situation géographique centrale, Guéret n’est jamais bien loin de chez vous !
+				</p>
+			</div>
+			
+
+			<div class="map">
+					<iframe 
+					src="https://maps.google.com/maps?q=Grand%20gu%C3%A9ret&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+					frameborder="0" 
+					scrolling="no" 
+					marginheight="0" 
+					marginwidth="0">
+					</iframe>
+			</div>
+
+		</div>
+
+		<div id="bloc-deplacement" class="bloc-dark bloc">
+			<h1 class="title light-text">
+				Se déplacer avec simplicité !
+			</h1>
+
+			<div class="text-deplacement">
+				<p class="text light-text">
+					Dans les Monts de Guéret, se déplacer il n’y a rien de plus facile !  Des bus et navettes desservent toute l’agglomération et seront vous faire traverser emmener où vous le souhaitez pour profitez des magnifiques paysages et incroyables activités que vous offre le Grand Guéret !  	
+				</p>
+			</div>
+	
+			<a href="#">
+				<button class="button text light-text">
+					Connaitre les différents transports
+				</button>
+			</a>
+		</div>
+
+
+
+		<div id="bloc-activites" class="bloc">
+			<h1 class="title dark-text">
+				S'amuser en toute tranquilité !
+			</h1>
+
+			<div class="nature-activite">
+				
+				<p class="text-activite text dark-text">
+					Dotés d’espaces naturels remarquables, de superbes panoramas, de 150 km de ruisseaux et rivières et 41 hectares de plans d’eau. Les Monts de Guéret offrent un formidable terrain de jeux autour d’activités terrestres, nautiques et aériennes !
+				</p>
+
+					<img class="img-activite" src="images/png/activite_nature.png" alt="Paysage de forêt">
+			</div>
+
+			<div class="lecture-activite">
+					<img class="img-activite" src="images/png/activite_bibliotheque.png" alt="bibliothèque multimédia>
+				
+				<p class="text-activite text dark-text">
+					L’histoire du Grand Guéret se transmet au travers des livres grâce à la grande diversité d’oeuvres présente dans notre réseau de lecture publique. Les bibliothèques des Monts Du Guéret offrent un formidable terrain de jeux pour les amoureux des livres !
+				</p>
+			</div>
+
+
+		</div>
+
+		<footer>
+      <div id="bloc-info-1">
+        <div>
+          <a href="index.html"><img src="images/svg/logo-icon.svg" alt="Logo"></a>
+          <p class="">9, avenue Charles de Gaulle</p>
+          <p class="">BP 302</p>
+          <p class="">23006 Guéret Cedex</p>
+        </div>
+    
+        <div>
+          <a target="_blank"><img src="images/svg/phone-icon.svg" alt="Icône de Téléphone"></a>
+          <p class="text-center">Téléphone : 05 55 41 04 48</p>
+          <p class="text-center">Fax : 05 55 41 13 01</p>
+          <a class="text-mail" href="mailto:direction.generale@agglo-grandgueret.fr" ><p class="text-center">@ : direction.generale@agglo-grandgueret.fr</p></a>
+        </div>
+    
+        <div>
+            <a href="http://pinterest.com/grandgueret/" target="_blank"><img src="images/svg/pinterest.svg" alt="Pinterest"></a>
+          <div id="bloc-reseau">
+            <a href="https://twitter.com/GrandGueret" target="_blank"><img src="images/svg/twitter.svg" alt="Twitter"></a>
+            <a href="https://www.facebook.com/grandgueret" target="_blank"><img src="images/svg/facebook.svg" alt="Facebook"></a>
+          </div>
+          <p class="text-center">Retrouvez nous sur les</p>
+          <p class="text-center">réseaux sociaux</p>    
+        </div>
+      </div>
+    
+      <div id="bloc-info-2">
+        <a href="https://www.agglo-grandgueret.fr/sitemap">
+          Plan du site
+        </a>
+    
+        <a href="https://www.agglo-grandgueret.fr/offres-emploi">
+          Offres d’emplois
+        </a>
+    
+        <a href="https://www.agglo-grandgueret.fr/mentions-legales">
+          Mentions légales
+        </a>
+    
+        <a href="https://www.agglo-grandgueret.fr/politique-de-confidentialite">
+          Cookies
+        </a>
+    
+        <a  href="https://www.agglo-grandgueret.fr/contact">
+          Contact et Accès
+        </a>
+      </div>
+    </footer>
+
+	</body>
+
+	
+
+</html>
